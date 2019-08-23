@@ -237,6 +237,9 @@ let groups = [{
         "#% to Lightning Resistance": ["Lightning Resistance"],
         "#% to Chaos Resistance": ["Chaos Resistance"],
         "#% to all Elemental Resistances": ["All"],
+        "#% to Fire and Lightning Resistances": ["Fire Resistance", "Lightning Resistance"],
+        "#% to Fire and Cold Resistances": ["Fire Resistance", "Cold Resistance"],
+        "#% to Cold and Lightning Resistances": ["Cold Resistance", "Lightning Resistance"],
     }
 }];
 
