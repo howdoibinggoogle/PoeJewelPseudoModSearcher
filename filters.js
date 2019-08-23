@@ -84,7 +84,7 @@ let groups = [{
         "#% increased Spell Damage while wielding a Staff": ["Spell", "Staves"],
         "#% increased Global Physical Damage": ["Physical"],
         "#% increased Damage with One Handed Weapons": ["One-Handed Melee Weapons"],
-        "#% increased Damage with Two Handed Weapons": ["Two-Handed Melee Weapons"],
+        "#% increased Damage with Two Handed Weapons": ["Two Handed Weapon"],
         "#% increased Weapon Damage while Dual Wielding": ["Dual Wielding", "Attack"],
         "#% increased Damage with Swords": ["Swords"],
         "#% increased Damage with Axes": ["Axes"],
