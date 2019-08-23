@@ -45,6 +45,7 @@ export default {
                 'btn-outline-info': filter.type === "Type",
                 'btn-outline-primary': filter.type === "Skills",
                 'btn-outline-warning': filter.type === "Special",
+                'btn-outline-success': filter.type === "Defenses",
             }
         },
         resetGroup(group) {

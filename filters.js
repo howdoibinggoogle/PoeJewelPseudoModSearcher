@@ -37,6 +37,12 @@ let filters = [
     { text: "Elemental Skills", type: "Skills" },
     { text: "Resolute Technique", type: "Special" },
     { text: "Single Target", type: "Special" },
+    { text: "Life", type: "Defenses" },
+    { text: "Energy Shield", type: "Defenses" },
+    { text: "Fire Resistance", type: "Defenses" },
+    { text: "Cold Resistance", type: "Defenses" },
+    { text: "Lightning Resistance", type: "Defenses" },
+    { text: "Chaos Resistance", type: "Defenses" },
 ];
 
 for (let item of filters) {
@@ -212,6 +218,25 @@ let groups = [{
         "Adds # to # Chaos Damage to Spells while Dual Wielding": ["Chaos", "Spell", "Dual Wielding"],
         "Adds # to # Chaos Damage to Spells while holding a Shield": ["Chaos", "Spell", "Shield"],
         "Adds # to # Chaos Damage to Spells while wielding a Two Handed Weapon": ["Chaos", "Spell", "Two Handed Weapon"],
+    }
+},
+    {
+    "text": "+#% EHP",
+    "stats": {
+        "#% increased maximum Life": ["Life"],
+        "# to maximum Life": ["Life"],
+        "#% increased maximum Energy Shield": ["Energy Shield"],
+        "# to maximum Energy Shield": ["Energy Shield"],
+    }
+},
+{
+    "text": "#% Increased Resistance",
+    "stats": {
+        "#% to Fire Resistance": ["Fire Resistance"],
+        "#% to Cold Resistance": ["Cold Resistance"],
+        "#% to Lightning Resistance": ["Lightning Resistance"],
+        "#% to Chaos Resistance": ["Chaos Resistance"],
+        "#% to all Elemental Resistances": ["All"],
     }
 }];
 
