@@ -35,6 +35,7 @@ let filters = [
     { text: "Lightning Skills", type: "Skills" },
     { text: "Chaos Skills", type: "Skills" },
     { text: "Elemental Skills", type: "Skills" },
+    { text: "Minion Skills", type: "Skills" },
     { text: "Resolute Technique", type: "Special" },
     { text: "Single Target", type: "Special" },
     { text: "Life", type: "Defenses" },
@@ -70,6 +71,8 @@ let groups = [{
         "#% increased Attack Speed with Staves": ["Staves"],
         "#% increased Attack Speed with Wands": ["Wands"],
         "#% increased Attack Speed with Bows": ["Bows"],
+        "Minions have #% increased Attack Speed": ["Minion"],
+        "Minions have #% increased Attack and Cast Speed if you or your Minions have Killed Recently": ["Minion", "!Single Target"],
     }
 },
 {
@@ -105,6 +108,7 @@ let groups = [{
         "#% increased Mine Damage": ["Mine"],
         "#% increased Totem Damage": ["Totem"],
         "Minions deal #% increased Damage": ["Minion"],
+        "#% increased Minion Damage if you've used a Minion Skill Recently": ["Minion Skills"],
         "#% increased Projectile Damage": ["Projectile"],
         "#% increased Area Damage": ["Area"],
         "#% increased Damage over Time": ["Damage over Time"],
@@ -132,6 +136,7 @@ let groups = [{
         "#% increased Cast Speed while Dual Wielding": ["Dual Wielding"],
         "#% increased Cast Speed while wielding a Staff": ["Staves"],
         "#% increased Cast Speed if a Minion has been Killed Recently": ["Minion"],
+        "Minions have #% increased Attack and Cast Speed if you or your Minions have Killed Recently": ["Minion", "!Single Target"],
     }
 },
 {
@@ -240,6 +245,7 @@ let groups = [{
         "# to maximum Life": ["Life"],
         "#% increased maximum Energy Shield": ["Energy Shield"],
         "# to maximum Energy Shield": ["Energy Shield"],
+        "Minions have #% increased maximum Life": ["Minion"],
     }
 },
 {
