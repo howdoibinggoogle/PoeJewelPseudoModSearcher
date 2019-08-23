@@ -131,6 +131,7 @@ let groups = [{
         "#% increased Cast Speed while holding a Shield": ["Shield"],
         "#% increased Cast Speed while Dual Wielding": ["Dual Wielding"],
         "#% increased Cast Speed while wielding a Staff": ["Staves"],
+        "#% increased Cast Speed if a Minion has been Killed Recently": ["Minion"],
     }
 },
 {
@@ -176,6 +177,7 @@ let groups = [{
         "Adds # to # Physical Damage to Staff Attacks": ["Physical", "Staves", "Attack"],
         "Adds # to # Physical Damage to Wand Attacks": ["Physical", "Wands", "Attack"],
         "Adds # to # Physical Damage to Bow Attacks": ["Physical", "Bows", "Attack"],
+        "Adds # to # Physical Damage to Claw Attacks": ["Physical", "Claws", "Attack"],
         "Adds # to # Physical Damage to Spells": ["Physical", "Spell"],
         "Adds # to # Physical Damage to Spells while Dual Wielding": ["Physical", "Spell", "Dual Wielding"],
         "Adds # to # Physical Damage to Spells while holding a Shield": ["Physical", "Spell", "Shield"],
@@ -188,6 +190,7 @@ let groups = [{
         "Adds # to # Lightning Damage to Staff Attacks": ["Lightning", "Staves", "Attack"],
         "Adds # to # Lightning Damage to Wand Attacks": ["Lightning", "Wands", "Attack"],
         "Adds # to # Lightning Damage to Bow Attacks": ["Lightning", "Bows", "Attack"],
+        "Adds # to # Lightning Damage to Claw Attacks": ["Lightning", "Claws", "Attacks"],
         "Adds # to # Lightning Damage to Spells": ["Fire", "Spell"],
         "Adds # to # Lightning Damage to Spells while Dual Wielding": ["Lightning", "Spell", "Dual Wielding"],
         "Adds # to # Lightning Damage to Spells while holding a Shield": ["Lightning", "Spell", "Shield"],
@@ -200,6 +203,7 @@ let groups = [{
         "Adds # to # Fire Damage to Staff Attacks": ["Fire", "Staves", "Attack"],
         "Adds # to # Fire Damage to Wand Attacks": ["Fire", "Wands", "Attack"],
         "Adds # to # Fire Damage to Bow Attacks": ["Fire", "Bows", "Attack"],
+        "Adds # to # Fire Damage to Claw Attacks": ["Fire", "Claws", "Attack"],
         "Adds # to # Fire Damage to Spells": ["Fire", "Spell"],
         "Adds # to # Fire Damage to Spells while Dual Wielding": ["Fire", "Spell", "Dual Wielding"],
         "Adds # to # Fire Damage to Spells while holding a Shield": ["Fire", "Spell", "Shield"],
@@ -212,6 +216,7 @@ let groups = [{
         "Adds # to # Cold Damage to Staff Attacks": ["Cold", "Staves", "Attack"],
         "Adds # to # Cold Damage to Wand Attacks": ["Cold", "Wands", "Attack"],
         "Adds # to # Cold Damage to Bow Attacks": ["Cold", "Bows", "Attack"],
+        "Adds # to # Cold Damage to Claw Attacks": ["Cold", "Claws", "Attack"],
         "Adds # to # Cold Damage to Spells": ["Cold", "Spell"],
         "Adds # to # Cold Damage to Spells while Dual Wielding": ["Cold", "Spell", "Dual Wielding"],
         "Adds # to # Cold Damage to Spells while holding a Shield": ["Cold", "Spell", "Shield"],
@@ -221,6 +226,11 @@ let groups = [{
         "Adds # to # Chaos Damage to Spells while Dual Wielding": ["Chaos", "Spell", "Dual Wielding"],
         "Adds # to # Chaos Damage to Spells while holding a Shield": ["Chaos", "Spell", "Shield"],
         "Adds # to # Chaos Damage to Spells while wielding a Two Handed Weapon": ["Chaos", "Spell", "Two Handed Weapon"],
+        "Minions deal # to # additional Physical Damage": ["Physical", "Minion"],
+        "Minions deal # to # additional Lightning Damage": ["Lightning", "Minion"],
+        "Minions deal # to # additional Fire Damage": ["Fire", "Minion"],
+        "Minions deal # to # additional Cold Damage": ["Cold", "Minion"],
+        "Minions deal # to # additional Chaos Damage": ["Chaos", "Minion"],
     }
 },
     {
