@@ -46,6 +46,8 @@ export default {
                 'btn-outline-primary': filter.type === "Skills",
                 'btn-outline-warning': filter.type === "Special",
                 'btn-outline-success': filter.type === "Defenses",
+                'btn-outline-warning': filter.type === "Movement",
+                'btn-outline-warning': filter.type === "Buffs",
             }
         },
         resetGroup(group) {
