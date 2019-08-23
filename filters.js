@@ -46,7 +46,7 @@ let filters = [
     { text: "Cold and Lightning Resistance", type: "Defenses" },
     { text: "Chaos Resistance", type: "Defenses" },
     { text: "Movement", type: "Movement" },
-    { text: "Buffs/Debuffs", type: "Buffs" },
+    { text: "Buffs", type: "Buffs" },
 ];
 
 for (let item of filters) {
