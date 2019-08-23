@@ -268,7 +268,7 @@ let groups = [{
 {
     "text": "Increased Movement Speed",
     "stats": {
-        "#% increased Movement Speed if you've Killed Recently": ["Movement", "!Single Target"],
+        "#% increased Movement Speed if you've Killed Recently": ["!Single Target"],
         "#% increased Movement Speed if you haven't taken Damage Recently": ["All"],
         "Minions have #% increased Movement Speed": ["Minion"],
         "#% chance to gain Onslaught for 4 seconds on Kill": ["Buffs", "!Single Target"],
