@@ -39,9 +39,9 @@ let filters = [
     { text: "Single Target", type: "Special" },
     { text: "Life", type: "Defenses" },
     { text: "Energy Shield", type: "Defenses" },
-    { text: "Fire Resistance", type: "Defenses" },
-    { text: "Cold Resistance", type: "Defenses" },
-    { text: "Lightning Resistance", type: "Defenses" },
+    { text: "Fire and Lightning Resistance", type: "Defenses" },
+    { text: "Fire and Cold Resistance", type: "Defenses" },
+    { text: "Cold and Lightning Resistance", type: "Defenses" },
     { text: "Chaos Resistance", type: "Defenses" },
 ];
 
@@ -232,14 +232,10 @@ let groups = [{
 {
     "text": "#% Increased Resistance",
     "stats": {
-        "#% to Fire Resistance": ["Fire Resistance"],
-        "#% to Cold Resistance": ["Cold Resistance"],
-        "#% to Lightning Resistance": ["Lightning Resistance"],
-        "#% to Chaos Resistance": ["Chaos Resistance"],
         "#% to all Elemental Resistances": ["All"],
-        "#% to Fire and Lightning Resistances": ["Fire Resistance", "Lightning Resistance"],
-        "#% to Fire and Cold Resistances": ["Fire Resistance", "Cold Resistance"],
-        "#% to Cold and Lightning Resistances": ["Cold Resistance", "Lightning Resistance"],
+        "#% to Fire and Lightning Resistances": ["Fire and Lightning Resistance"],
+        "#% to Fire and Cold Resistances": ["Fire and Cold Resistance"],
+        "#% to Cold and Lightning Resistances": ["Cold and Lightning Resistance"],
     }
 }];
 
