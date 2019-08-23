@@ -96,7 +96,7 @@ let groups = [{
         "#% increased Damage with Staves": ["Staves", "!Spell"],
         "#% increased Damage with Wands": ["Wands"],
         "#% increased Attack Damage while holding a Shield": ["Shield", "Attack"],
-        "#% increased Melee Damage": ["Melee"].
+        "#% increased Melee Damage": ["Melee"],
         "#% increased Fire Damage": ["Fire"],
         "#% increased Cold Damage": ["Cold"],
         "#% increased Lightning Damage": ["Lightning"],
