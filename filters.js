@@ -278,11 +278,11 @@ let groups = [{
 { 
     "text": "Buffs/Debuffs",
     "stats": {
-        "#% chance to gain Unholy Might for 4 seconds on Melee Kill": ["Buffs", "Melee", "!Single Target"],
-        "#% chance to Hinder Enemies on Hit with Spells, with 30% reduced Movement Speed": ["Buffs", "Spell"],
-        "Minions have #% chance to Hinder Enemies on Hit with Spells, with 30% reduced Movement Speed": ["Buffs", "Minion", "Spell"],
-        "Minions have #% chance to Blind on Hit with Attacks": ["Buffs", "Minion", "Attack"],
-        "Minions have #% chance to Taunt on Hit with Attacks": ["Buffs", "Minion", "Attack"],
+        "#% chance to gain Unholy Might for 4 seconds on Melee Kill": ["Melee", "!Single Target"],
+        "#% chance to Hinder Enemies on Hit with Spells, with 30% reduced Movement Speed": ["Spell"],
+        "Minions have #% chance to Hinder Enemies on Hit with Spells, with 30% reduced Movement Speed": ["Minion", "Spell"],
+        "Minions have #% chance to Blind on Hit with Attacks": ["Minion", "Attack"],
+        "Minions have #% chance to Taunt on Hit with Attacks": ["Minion", "Attack"],
     }
 },
 ];
