@@ -190,7 +190,7 @@ let groups = [{
         "Adds # to # Lightning Damage to Staff Attacks": ["Lightning", "Staves", "Attack"],
         "Adds # to # Lightning Damage to Wand Attacks": ["Lightning", "Wands", "Attack"],
         "Adds # to # Lightning Damage to Bow Attacks": ["Lightning", "Bows", "Attack"],
-        "Adds # to # Lightning Damage to Claw Attacks": ["Lightning", "Claws", "Attacks"],
+        "Adds # to # Lightning Damage to Claw Attacks": ["Lightning", "Claws", "Attack"],
         "Adds # to # Lightning Damage to Spells": ["Fire", "Spell"],
         "Adds # to # Lightning Damage to Spells while Dual Wielding": ["Lightning", "Spell", "Dual Wielding"],
         "Adds # to # Lightning Damage to Spells while holding a Shield": ["Lightning", "Spell", "Shield"],
