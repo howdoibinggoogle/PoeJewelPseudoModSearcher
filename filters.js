@@ -111,6 +111,8 @@ let groups = [{
         "#% increased Damage over Time while Dual Wielding": ["Damage over Time", "Dual Wielding"],
         "#% increased Damage over Time while holding a Shield": ["Damage over Time", "Shield"],
         "#% increased Damage over Time while wielding a Two Handed Weapon": ["Damage over Time", "Two Handed Weapon"],
+        "#% to Cold Damage over Time Multiplier": ["Damage over Time", "Cold"],
+        "#% to Non-Ailment Chaos Damage over Time Multiplier": ["Damage over Time", "Chaos"],
         "#% increased Burning Damage": ["Burning"],
         "#% increased Damage with Poison": ["Poison"],
         "#% increased Damage with Bleeding": ["Bleeding"],
