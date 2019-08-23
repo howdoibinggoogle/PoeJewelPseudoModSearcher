@@ -39,11 +39,14 @@ let filters = [
     { text: "Resolute Technique", type: "Special" },
     { text: "Single Target", type: "Special" },
     { text: "Life", type: "Defenses" },
+    { text: "Mana", type: "Defenses" },
     { text: "Energy Shield", type: "Defenses" },
     { text: "Fire and Lightning Resistance", type: "Defenses" },
     { text: "Fire and Cold Resistance", type: "Defenses" },
     { text: "Cold and Lightning Resistance", type: "Defenses" },
     { text: "Chaos Resistance", type: "Defenses" },
+    { text: "Movement", type: "Movement" },
+    { text: "Buffs/Debuffs", type: "Buffs" },
 ];
 
 for (let item of filters) {
@@ -73,6 +76,7 @@ let groups = [{
         "#% increased Attack Speed with Bows": ["Bows"],
         "Minions have #% increased Attack Speed": ["Minion"],
         "Minions have #% increased Attack and Cast Speed if you or your Minions have Killed Recently": ["Minion", "!Single Target"],
+        "#% chance to gain Onslaught for 4 seconds on Kill": ["Buffs", "!Single Target"],
     }
 },
 {
@@ -137,6 +141,7 @@ let groups = [{
         "#% increased Cast Speed while wielding a Staff": ["Staves"],
         "#% increased Cast Speed if a Minion has been Killed Recently": ["Minion"],
         "Minions have #% increased Attack and Cast Speed if you or your Minions have Killed Recently": ["Minion", "!Single Target"],
+        "#% chance to gain Onslaught for 4 seconds on Kill": ["Buffs", "!Single Target"],
     }
 },
 {
@@ -153,6 +158,7 @@ let groups = [{
         "#% increased Critical Strike Chance with One Handed Melee Weapons": ["One-Handed Melee Weapons"],
         "#% increased Critical Strike Chance with Two Handed Melee Weapons": ["Two-Handed Melee Weapons"],
         "#% increased Weapon Critical Strike Chance while Dual Wielding": ["Dual Wielding", "Attack"],
+        "Gain #% of Physical Damage as Extra Fire Damage if you've dealt a Critical Strike Recently": ["Physical"],
     }
 },
 {
@@ -243,6 +249,8 @@ let groups = [{
     "stats": {
         "#% increased maximum Life": ["Life"],
         "# to maximum Life": ["Life"],
+        "#% increased maximum Mana": ["Mana"],
+        "# to maximum Mana": ["Mana"],
         "#% increased maximum Energy Shield": ["Energy Shield"],
         "# to maximum Energy Shield": ["Energy Shield"],
         "Minions have #% increased maximum Life": ["Minion"],
@@ -256,7 +264,28 @@ let groups = [{
         "#% to Fire and Cold Resistances": ["Fire and Cold Resistance"],
         "#% to Cold and Lightning Resistances": ["Cold and Lightning Resistance"],
     }
-}];
+},
+{
+    "text": "Increased Movement Speed",
+    "stats": {
+        "#% increased Movement Speed if you've Killed Recently": ["Movement", "!Single Target"],
+        "#% increased Movement Speed if you haven't taken Damage Recently": ["All"],
+        "Minions have #% increased Movement Speed": ["Minion"],
+        "#% chance to gain Onslaught for 4 seconds on Kill": ["Buffs", "!Single Target"],
+        "#% chance to gain Phasing for 4 seconds on Kill": ["Buffs", "!Single Target"],
+    }
+},
+{ 
+    "text": "Buffs/Debuffs",
+    "stats": {
+        "#% chance to gain Unholy Might for 4 seconds on Melee Kill": ["Buffs", "Melee", "!Single Target"],
+        "#% chance to Hinder Enemies on Hit with Spells, with 30% reduced Movement Speed": ["Buffs", "Spell"],
+        "Minions have #% chance to Hinder Enemies on Hit with Spells, with 30% reduced Movement Speed": ["Buffs", "Minion", "Spell"],
+        "Minions have #% chance to Blind on Hit with Attacks": ["Buffs", "Minion", "Attack"],
+        "Minions have #% chance to Taunt on Hit with Attacks": ["Buffs", "Minion", "Attack"],
+    }
+},
+];
 
 for (let item of groups) {
     item.active = false;
