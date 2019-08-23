@@ -233,9 +233,9 @@ let groups = [{
     "text": "#% Increased Resistance",
     "stats": {
         "#% to all Elemental Resistances": ["All"],
-        "#% to Fire and Lightning Resistances": ["Fire and Lightning Resistance"],
-        "#% to Fire and Cold Resistances": ["Fire and Cold Resistance"],
-        "#% to Cold and Lightning Resistances": ["Cold and Lightning Resistance"],
+        "#% to Fire and Lightning Resistances": ["All"],
+        "#% to Fire and Cold Resistances": ["All"],
+        "#% to Cold and Lightning Resistances": ["All"],
     }
 }];
 
